@@ -1,0 +1,11 @@
+:root {
+	--main-color: #121B25;
+	--decor-color: #1aa090;
+	--decor-second-color: #15786c;
+	--bg-img-color: rgba(161, 170, 144, .12);
+	--main-font-color: white;
+	--main-hover-color: #c2c2c2;
+	--main-fz: 16px;
+	--drop-color: #858585;
+	--slider-font-color: #d6d6d6;
+}

@@ -1,0 +1,28 @@
+@media (max-width:992px) {
+	.close-line {
+		display: block;
+	}
+
+	.header__nav {
+		display: flex;
+		position: absolute;
+		top: 0;
+		left: -200%;
+		width: 100vw;
+		height: 100vh;
+		background-color: var(--decor-color);
+		overflow: auto;
+		margin: auto;
+		transition: 0.2s linear;
+	}
+	.header__nav--active {
+		left: 0;
+	}
+}
+
+
+@media (max-width: 421px) {
+	.logo {
+		display: none;
+	}
+}
